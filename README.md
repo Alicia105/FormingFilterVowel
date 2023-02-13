@@ -1,4 +1,4 @@
-# FormingFilterVowel
+# Forming Filter Vowel
 
 Option 2A Electronique et Signal pour la musique
 Projet réalisé par :
