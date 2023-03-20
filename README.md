@@ -19,6 +19,9 @@ Le but de ce projet est de réaliser un filtre formants de voyelle sous la forme
 #Source Tuto coder dans VCV Rack "Why and how to code your first VCV Rack Plugin (C++ for beginners)": https://www.youtube.com/watch?v=d670AFZKGnw
 
 #Source code VCV Rack Module Open Source: https://github.com/StudioSixPlusOne/rack-modules/tree/master/src/modules
+#Source VCV Library: https://vcvrack.com/manual/GettingStarted
+#Source VCV Plugin Development : https://vcvrack.com/manual/PluginDevelopmentTutorial
+
 
 
 
