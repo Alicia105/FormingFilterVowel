@@ -18,6 +18,11 @@ Le but de ce projet est de réaliser un filtre formants de voyelle sous la forme
 #Source tableau valeurs fréquences voyelles:https://www.researchgate.net/figure/Formant-frequencies-for-English-vowels-for-RTH-in-Hz_tbl2_277835798
 #Source Tuto coder dans VCV Rack "Why and how to code your first VCV Rack Plugin (C++ for beginners)": https://www.youtube.com/watch?v=d670AFZKGnw
 
+#Source code VCV Rack Module Open Source: https://github.com/StudioSixPlusOne/rack-modules/tree/master/src/modules
+
+
+
+
 
 
 
