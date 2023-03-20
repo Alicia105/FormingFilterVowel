@@ -16,6 +16,8 @@ Le but de ce projet est de réaliser un filtre formants de voyelle sous la forme
 #Source Formants définition : https://www.techno-science.net/definition/6667.html
 #Source formation voyelles et profil en fréquence : http://hyperphysics.phy-astr.gsu.edu/hbase/Music/vowel.html
 #Source tableau valeurs fréquences voyelles:https://www.researchgate.net/figure/Formant-frequencies-for-English-vowels-for-RTH-in-Hz_tbl2_277835798
+#Source Tuto coder dans VCV Rack "Why and how to code your first VCV Rack Plugin (C++ for beginners)": https://www.youtube.com/watch?v=d670AFZKGnw
+
 
 
 
