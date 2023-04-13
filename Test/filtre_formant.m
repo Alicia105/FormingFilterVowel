@@ -22,18 +22,19 @@ F_a = [84,119,294]
 BW_a = [735,1236,2489]
 
 % son /ʌ/
-F_ʌ = [65,176,458]
-BW_ʌ = [676,1266,2438]
+F_delta = [65,176,458]
+BW_delta = [676,1266,2438]
 
 % son /ɐ/
-F_ɐ = [72,84,387]
-BW_ɐ ) [650,1027,2445]
+F_ea = [72,84,387]
+BW_ea = [650,1027,2445]
 
 % son /Ↄ/
-F_Ↄ = [61,108,299]
-BW_Ↄ = [504,868,2654]
+F_c = [61,108,299]
+BW_c = [504,868,2654]
 
-
+F = F_a;
+BW = BW_a;
 nsecs = length(F);
 R = exp(-pi*BW/fs);     % Pole radii
 theta = 2*pi*F/fs;      % Pole angles
@@ -50,7 +51,7 @@ for i=1:2:2*nsecs
     k = 1+(i-1)/2;
     Bs(k,:) = [r(i)+r(i+1),  -(r(i)*p(i+1)+r(i+1)*p(i)), 0];
     As(k,:) = [1, -(p(i)+p(i+1)), p(i)*p(i+1)];
-endↃ
+end
 sos = [Bs,As]; % standard second-order-section form
 iperr = norm(imag(sos))/norm(sos); % make sure sos is ~real
 disp(sprintf('||imag(sos)||/||sos|| = %g',iperr)); % 1.6e-16
@@ -83,7 +84,7 @@ np=nfft/2; % Only plot for positive frequencies
 wp = w(1:np); Hp=H(:,1:np);
 figure(1); clf;
 myplot(wp,20*log10(abs(Hp)),sym,ttl,xlab,ylab,1,lgnd);
-#disp('PAUSING'); pause;
+%disp('PAUSING'); pause;
 
 
 % Now synthesize the vowel [a]:
@@ -96,9 +97,9 @@ sig = zeros(1,nsamps);
 n = 0:(nsamps-1);
 % Synthesize bandlimited impulse train
 
-for i=1:nharm,
+for i=1:nharm
     sig = sig + cos(i*w0T*n);
-end;
+end
 
 sig = sig/max(sig);
 speech = filter(1,A,sig);
@@ -108,7 +109,7 @@ plot(speech);
 
 audiowrite("test_a.wav",speech,fs);
 
-#sound(sig,fs);
+%sound(sig,fs);
 
-#sound(speech,fs); % hear buzz, then 'ah'
+%sound(speech,fs); % hear buzz, then 'ah'
 
