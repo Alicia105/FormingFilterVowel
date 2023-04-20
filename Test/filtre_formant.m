@@ -1,4 +1,4 @@
-% Formant frequencies for different vowels
+% Formant frequencies for different vowels ---->to master
 
 % son /i/
 F_i = [27,80,575]
