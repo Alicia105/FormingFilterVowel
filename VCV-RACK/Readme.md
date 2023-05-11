@@ -1,6 +1,6 @@
 ## VCV-RACK ##
 
-- L'ensemble des fichiers présents ici sont l'ébauche du développement d'un plugin format-filter pour VCV-RACK
+- L'ensemble des fichiers présents ici sont l'ébauche du développement d'un plugin formant-filter pour VCV-RACK
 
 - Les fichiers .cpp permettent la programmation du fonctionnement du module : gestion entrées/sorties , traitement du signal, fonctions diverses ... ( La programmation associée à notre
  module n'a pas été effectuée) 
