@@ -44,3 +44,10 @@ Implementation in hardware and deployment of the physical module.
 - Open Source VCV Rack Module Code: https://github.com/StudioSixPlusOne/rack-modules/tree/master/src/modules
 - VCV Library: https://vcvrack.com/manual/GettingStarted
 - VCV Plugin Development: https://vcvrack.com/manual/PluginDevelopmentTutorial
+
+## Conclusion
+
+We finally managed to finish the cutting part in real time.
+We have the coefficients of the filters associated with each vowel and their transcription in Matlab as well as the change between two filters (in Matlab).
+We have the beginning of a transcription in C code as well as the plan grid in (X;Y) to make an imaginary representation of the vowels on a pointable axis thanks to our potars.
+We have an unsuccessful trial of the VCV Rack plugin to test our module before implementing it in hardware.
