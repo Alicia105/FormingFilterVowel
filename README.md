@@ -8,6 +8,7 @@ This project was developed by:
 
 Under the supervision of Mr. Papazoglou and Mr. Fiack.
 
+
 ## Project Description
 
 The aim of this project is to create a formant filter for vowels in the form of a Eurorack module. The idea is to have a Eurorack module with two potentiometers representing the coordinates in x and y. This allows us to move a "virtual" point on a plane where certain areas represent vowel sounds. The objective is to filter an input signal to bring out vowel sounds, with the coefficients of this filter being controlled by the potentiometers.
