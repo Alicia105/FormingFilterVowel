@@ -14,7 +14,11 @@ The aim of this project is to create a formant filter for vowels in the form of 
 
 ### Part 1:
 
-We modeled our filters in Matlab to easily visualize their feasibility and effect. In this case, white noise is filtered to only output frequencies corresponding to the desired vowel sound.
+We modeled our filters in Matlab to easily visualize their feasibility and effect.
+Our code is divided into two parts:
+- a slicing function, which will permit to allow us to change the inputs in real time in order to evolve the filter we apply
+- the vowel filter itself, which will filter our input noise to output only the vowel sound that the user wants in real time
+
 
 ### Part 2:
 
