@@ -1,0 +1,23 @@
+{
+  "slug": "MyPlugin",
+  "name": "Formant_filter",
+  "version": "2.0.0",
+  "license": "proprietary",
+  "brand": "Formant_filter",
+  "author": "",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MyModule",
+      "name": "MyModule",
+      "description": "",
+      "tags": []
+    }
+  ]
+}
