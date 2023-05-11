@@ -12,4 +12,11 @@ L'intérêt d'un telle méthode et de pouvoir changer de filtre entre chaque fen
 Une partie de tracé des figures est présente dans ce code. 
 
 
+- filtre_aeiou.m
 
+Il s'agit d'une fonction permettant l'obtention des coefficients des filtres voyelles. 
+La méthode d'obtention des coefficients est tirée d'un code préexistantt.
+
+- autres
+
+Code Matlab nous ayant inspiré pour ce qui précède. 
