@@ -1,4 +1,4 @@
-#VCV-RACK#
+## VCV-RACK ##
 
 - L'ensemble des fichiers présents ici sont l'ébauche du développement d'un plugin format-filter pour VCV-RACK
 
